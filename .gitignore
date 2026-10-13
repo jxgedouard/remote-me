@@ -1,0 +1,28 @@
+# Dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+
+# Local pairing keys, tokens and caches: never commit (Apple TV credentials, LG client key, Spotify tokens)
+backend/data/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Tooling local to this machine
+.claude/
+**/.claude/
+frontend/.agents/
+frontend/skills-lock.json
+
+# Logs and OS / editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.local
